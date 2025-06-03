@@ -37,10 +37,10 @@ struct Step {
 }
 
 const STEPS: usize = 1000000;
-const TIME_STEP: f64 = 15.0;
+const TIME_STEP: f64 = 20.0;
 const GRAVITATION_CONSTANT: f64 = 6.67430e-11; // m^3 kg^-1 s^-2
 
-const FPS: u32 = 60;
+const FPS: u32 = 180;
 const ANIMATION_LENGTH: u32 = 60; // s
 
 fn animate_steps(steps: &[Step]) {
